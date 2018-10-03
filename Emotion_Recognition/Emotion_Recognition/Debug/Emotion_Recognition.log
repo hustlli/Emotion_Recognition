@@ -1,0 +1,156 @@
+﻿生成启动时间为 2018/10/3 18:45:06。
+     1>项目“D:\Emotion_Recognition\Emotion_Recognition\Emotion_Recognition.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\Emotion_Recognition.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         d:\VS2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ffmpeg.cpp lbp_hf.cpp main.cpp
+         main.cpp
+     1>d:\emotion_recognition\emotion_recognition\loadbmp.h(227): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\emotion_recognition\emotion_recognition\loadbmp.h(256): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(39): error C2146: 语法错误: 缺少“;”(在标识符“svm_happy”的前面)
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(39): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(39): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(40): error C2146: 语法错误: 缺少“;”(在标识符“svm_surprise”的前面)
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(40): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(40): error C2086: “int CvSVM”: 重定义
+                 d:\emotion_recognition\emotion_recognition\main.cpp(39) : 参见“CvSVM”的声明
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(40): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(41): error C2146: 语法错误: 缺少“;”(在标识符“svm_angry”的前面)
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(41): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(41): error C2086: “int CvSVM”: 重定义
+                 d:\emotion_recognition\emotion_recognition\main.cpp(39) : 参见“CvSVM”的声明
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(41): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(42): error C2146: 语法错误: 缺少“;”(在标识符“svm_sad”的前面)
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(42): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(42): error C2086: “int CvSVM”: 重定义
+                 d:\emotion_recognition\emotion_recognition\main.cpp(39) : 参见“CvSVM”的声明
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(42): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(43): error C2146: 语法错误: 缺少“;”(在标识符“svm_disgust”的前面)
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(43): error C2086: “int CvSVM”: 重定义
+                 d:\emotion_recognition\emotion_recognition\main.cpp(39) : 参见“CvSVM”的声明
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(44): error C2146: 语法错误: 缺少“;”(在标识符“svm_fear”的前面)
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(44): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(44): error C2086: “int CvSVM”: 重定义
+                 d:\emotion_recognition\emotion_recognition\main.cpp(39) : 参见“CvSVM”的声明
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(44): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(45): error C2146: 语法错误: 缺少“;”(在标识符“svm_neutral”的前面)
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(45): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(45): error C2086: “int CvSVM”: 重定义
+                 d:\emotion_recognition\emotion_recognition\main.cpp(39) : 参见“CvSVM”的声明
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(45): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(47): error C2146: 语法错误: 缺少“;”(在标识符“rtree_happy”的前面)
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(47): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(47): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(48): error C2146: 语法错误: 缺少“;”(在标识符“rtree_surprise”的前面)
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(48): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(48): error C2086: “int CvRTrees”: 重定义
+                 d:\emotion_recognition\emotion_recognition\main.cpp(47) : 参见“CvRTrees”的声明
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(48): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(49): error C2146: 语法错误: 缺少“;”(在标识符“rtree_angry”的前面)
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(49): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(49): error C2086: “int CvRTrees”: 重定义
+                 d:\emotion_recognition\emotion_recognition\main.cpp(47) : 参见“CvRTrees”的声明
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(49): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(50): error C2146: 语法错误: 缺少“;”(在标识符“rtree_sad”的前面)
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(50): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(50): error C2086: “int CvRTrees”: 重定义
+                 d:\emotion_recognition\emotion_recognition\main.cpp(47) : 参见“CvRTrees”的声明
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(50): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(51): error C2146: 语法错误: 缺少“;”(在标识符“rtree_disgust”的前面)
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(51): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(51): error C2086: “int CvRTrees”: 重定义
+                 d:\emotion_recognition\emotion_recognition\main.cpp(47) : 参见“CvRTrees”的声明
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(51): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(52): error C2146: 语法错误: 缺少“;”(在标识符“rtree_fear”的前面)
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(52): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(52): error C2086: “int CvRTrees”: 重定义
+                 d:\emotion_recognition\emotion_recognition\main.cpp(47) : 参见“CvRTrees”的声明
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(52): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(53): error C2146: 语法错误: 缺少“;”(在标识符“rtree_neutral”的前面)
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(53): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(53): error C2086: “int CvRTrees”: 重定义
+                 d:\emotion_recognition\emotion_recognition\main.cpp(47) : 参见“CvRTrees”的声明
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(53): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(81): error C2228: “.load”的左边必须有类/结构/联合
+                 类型是“int”
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(82): error C2228: “.load”的左边必须有类/结构/联合
+                 类型是“int”
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(83): error C2228: “.load”的左边必须有类/结构/联合
+                 类型是“int”
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(84): error C2228: “.load”的左边必须有类/结构/联合
+                 类型是“int”
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(85): error C2228: “.load”的左边必须有类/结构/联合
+                 类型是“int”
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(86): error C2228: “.load”的左边必须有类/结构/联合
+                 类型是“int”
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(87): error C2228: “.load”的左边必须有类/结构/联合
+                 类型是“int”
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(134): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(267): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(268): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(269): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(270): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(315): error C2228: “.predict”的左边必须有类/结构/联合
+                 类型是“int”
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(324): error C2228: “.predict”的左边必须有类/结构/联合
+                 类型是“int”
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(333): error C2228: “.predict”的左边必须有类/结构/联合
+                 类型是“int”
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(342): error C2228: “.predict”的左边必须有类/结构/联合
+                 类型是“int”
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(351): error C2228: “.predict”的左边必须有类/结构/联合
+                 类型是“int”
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(360): error C2228: “.predict”的左边必须有类/结构/联合
+                 类型是“int”
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(369): error C2228: “.predict”的左边必须有类/结构/联合
+                 类型是“int”
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(442): error C2228: “.predict”的左边必须有类/结构/联合
+                 类型是“int”
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(452): error C2228: “.predict”的左边必须有类/结构/联合
+                 类型是“int”
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(462): error C2228: “.predict”的左边必须有类/结构/联合
+                 类型是“int”
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(472): error C2228: “.predict”的左边必须有类/结构/联合
+                 类型是“int”
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(482): error C2228: “.predict”的左边必须有类/结构/联合
+                 类型是“int”
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(492): error C2228: “.predict”的左边必须有类/结构/联合
+                 类型是“int”
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(502): error C2228: “.predict”的左边必须有类/结构/联合
+                 类型是“int”
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(587): error C2228: “.predict”的左边必须有类/结构/联合
+                 类型是“int”
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(597): error C2228: “.predict”的左边必须有类/结构/联合
+                 类型是“int”
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(607): error C2228: “.predict”的左边必须有类/结构/联合
+                 类型是“int”
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(617): error C2228: “.predict”的左边必须有类/结构/联合
+                 类型是“int”
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(627): error C2228: “.predict”的左边必须有类/结构/联合
+                 类型是“int”
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(637): error C2228: “.predict”的左边必须有类/结构/联合
+                 类型是“int”
+     1>d:\emotion_recognition\emotion_recognition\main.cpp(647): error C2228: “.predict”的左边必须有类/结构/联合
+                 类型是“int”
+         lbp_hf.cpp
+         ffmpeg.cpp
+     1>d:\emotion_recognition\emotion_recognition\ffmpeg.cpp(469): warning C4244: “=”: 从“int64_t”转换到“int”，可能丢失数据
+     1>d:\emotion_recognition\emotion_recognition\ffmpeg.cpp(513): warning C4244: “=”: 从“int64_t”转换到“int”，可能丢失数据
+     1>d:\emotion_recognition\emotion_recognition\ffmpeg.cpp(569): warning C4244: “=”: 从“int64_t”转换到“int”，可能丢失数据
+     1>d:\emotion_recognition\emotion_recognition\ffmpeg.cpp(615): warning C4244: “=”: 从“int64_t”转换到“int”，可能丢失数据
+     1>d:\emotion_recognition\emotion_recognition\ffmpeg.cpp(646): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\emotion_recognition\emotion_recognition\ffmpeg.cpp(696): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>d:\emotion_recognition\emotion_recognition\ffmpeg.cpp(742): warning C4244: “=”: 从“double”转换到“unsigned __int64”，可能丢失数据
+     1>d:\emotion_recognition\emotion_recognition\ffmpeg.cpp(770): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+         正在生成代码...
+     1>已完成生成项目“D:\Emotion_Recognition\Emotion_Recognition\Emotion_Recognition.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:05.54
