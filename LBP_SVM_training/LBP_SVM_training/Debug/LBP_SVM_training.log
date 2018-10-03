@@ -1,0 +1,66 @@
+﻿生成启动时间为 2018/10/3 9:54:23。
+     1>项目“D:\VS2010\Projects\LBP_SVM_training\LBP_SVM_training\LBP_SVM_training.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“D:\VS2010\Projects\LBP_SVM_training\Debug\”。
+       InitializeBuildStatus:
+         正在创建“Debug\LBP_SVM_training.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\VS2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ffmpeg.cpp lbp_hf.cpp main.cpp
+         main.cpp
+     1>d:\vs2010\projects\lbp_svm_training\lbp_svm_training\main.cpp(55): error C2065: “CvSVM”: 未声明的标识符
+     1>d:\vs2010\projects\lbp_svm_training\lbp_svm_training\main.cpp(55): error C2146: 语法错误: 缺少“;”(在标识符“svm”的前面)
+     1>d:\vs2010\projects\lbp_svm_training\lbp_svm_training\main.cpp(55): error C2065: “svm”: 未声明的标识符
+     1>d:\vs2010\projects\lbp_svm_training\lbp_svm_training\main.cpp(58): error C2065: “CvSVMParams”: 未声明的标识符
+     1>d:\vs2010\projects\lbp_svm_training\lbp_svm_training\main.cpp(58): error C2146: 语法错误: 缺少“;”(在标识符“param”的前面)
+     1>d:\vs2010\projects\lbp_svm_training\lbp_svm_training\main.cpp(58): error C2065: “param”: 未声明的标识符
+     1>d:\vs2010\projects\lbp_svm_training\lbp_svm_training\main.cpp(59): error C2065: “param”: 未声明的标识符
+     1>d:\vs2010\projects\lbp_svm_training\lbp_svm_training\main.cpp(59): error C2228: “.svm_type”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>d:\vs2010\projects\lbp_svm_training\lbp_svm_training\main.cpp(59): error C2653: “CvSVM”: 不是类或命名空间名称
+     1>d:\vs2010\projects\lbp_svm_training\lbp_svm_training\main.cpp(59): error C2065: “C_SVC”: 未声明的标识符
+     1>d:\vs2010\projects\lbp_svm_training\lbp_svm_training\main.cpp(60): error C2065: “param”: 未声明的标识符
+     1>d:\vs2010\projects\lbp_svm_training\lbp_svm_training\main.cpp(60): error C2228: “.kernel_type”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>d:\vs2010\projects\lbp_svm_training\lbp_svm_training\main.cpp(60): error C2653: “CvSVM”: 不是类或命名空间名称
+     1>d:\vs2010\projects\lbp_svm_training\lbp_svm_training\main.cpp(60): error C2065: “POLY”: 未声明的标识符
+     1>d:\vs2010\projects\lbp_svm_training\lbp_svm_training\main.cpp(61): error C2065: “param”: 未声明的标识符
+     1>d:\vs2010\projects\lbp_svm_training\lbp_svm_training\main.cpp(61): error C2228: “.degree”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>d:\vs2010\projects\lbp_svm_training\lbp_svm_training\main.cpp(62): error C2065: “param”: 未声明的标识符
+     1>d:\vs2010\projects\lbp_svm_training\lbp_svm_training\main.cpp(62): error C2228: “.gamma”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>d:\vs2010\projects\lbp_svm_training\lbp_svm_training\main.cpp(63): error C2065: “param”: 未声明的标识符
+     1>d:\vs2010\projects\lbp_svm_training\lbp_svm_training\main.cpp(63): error C2228: “.coef0”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>d:\vs2010\projects\lbp_svm_training\lbp_svm_training\main.cpp(132): error C2065: “svm”: 未声明的标识符
+     1>d:\vs2010\projects\lbp_svm_training\lbp_svm_training\main.cpp(132): error C2228: “.train”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>d:\vs2010\projects\lbp_svm_training\lbp_svm_training\main.cpp(132): error C2065: “param”: 未声明的标识符
+     1>d:\vs2010\projects\lbp_svm_training\lbp_svm_training\main.cpp(133): error C2065: “svm”: 未声明的标识符
+     1>d:\vs2010\projects\lbp_svm_training\lbp_svm_training\main.cpp(133): error C2228: “.save”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>d:\vs2010\projects\lbp_svm_training\lbp_svm_training\main.cpp(143): error C2065: “svm”: 未声明的标识符
+     1>d:\vs2010\projects\lbp_svm_training\lbp_svm_training\main.cpp(143): error C2228: “.load”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>d:\vs2010\projects\lbp_svm_training\lbp_svm_training\main.cpp(157): error C3861: “get_vector_AU”: 找不到标识符
+     1>d:\vs2010\projects\lbp_svm_training\lbp_svm_training\main.cpp(166): error C2065: “svm”: 未声明的标识符
+     1>d:\vs2010\projects\lbp_svm_training\lbp_svm_training\main.cpp(166): error C2228: “.predict”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+         lbp_hf.cpp
+         ffmpeg.cpp
+     1>d:\vs2010\projects\lbp_svm_training\lbp_svm_training\ffmpeg.cpp(469): warning C4244: “=”: 从“int64_t”转换到“int”，可能丢失数据
+     1>d:\vs2010\projects\lbp_svm_training\lbp_svm_training\ffmpeg.cpp(513): warning C4244: “=”: 从“int64_t”转换到“int”，可能丢失数据
+     1>d:\vs2010\projects\lbp_svm_training\lbp_svm_training\ffmpeg.cpp(569): warning C4244: “=”: 从“int64_t”转换到“int”，可能丢失数据
+     1>d:\vs2010\projects\lbp_svm_training\lbp_svm_training\ffmpeg.cpp(615): warning C4244: “=”: 从“int64_t”转换到“int”，可能丢失数据
+     1>d:\vs2010\projects\lbp_svm_training\lbp_svm_training\ffmpeg.cpp(646): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\vs2010\projects\lbp_svm_training\lbp_svm_training\ffmpeg.cpp(696): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>d:\vs2010\projects\lbp_svm_training\lbp_svm_training\ffmpeg.cpp(742): warning C4244: “=”: 从“double”转换到“unsigned __int64”，可能丢失数据
+     1>d:\vs2010\projects\lbp_svm_training\lbp_svm_training\ffmpeg.cpp(770): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+         正在生成代码...
+     1>已完成生成项目“D:\VS2010\Projects\LBP_SVM_training\LBP_SVM_training\LBP_SVM_training.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:04.29
